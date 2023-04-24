@@ -8,8 +8,8 @@ int main(void)
 	char lc;
 for
 	(lc = 'a';
-	 lc <= 'z'; l
-	 c++);
+	 lc <= 'z';
+	 lc++);
 {
 putchar(lc);
 }
