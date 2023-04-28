@@ -1,12 +1,12 @@
 #include "main.h"
-
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
+*print_numbers - print the numbers 0 to 9
+*
+*/
+void print_numbers(void)
 {
-print_numbers();
-return (0);
+int a;
+for (a = '0'; a <= '9'; a++)
+_putchar(a);
+_putchar('\n');
 }
