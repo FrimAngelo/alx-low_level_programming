@@ -5,7 +5,7 @@
  *
  * Return: void.
  */
-void print _rev(char *s)
+void print_rev(char *s)
 {
 	int length, last;
 
