@@ -14,7 +14,7 @@ int op_add(int a, int b)
 /**
  * op_sub - subtracts two integers
  * @a: first integer
-* @b: second integer
+ * @b: second integer
  * Return: difference of two integers
  */
 int op_sub(int a, int b)
@@ -32,6 +32,7 @@ int op_mul(int a, int b)
 {
 	return (a * b);
 }
+
 /**
  * op_div - divides two integers
  * @a: first integer
@@ -50,7 +51,7 @@ int op_div(int a, int b)
 
 /**
  * op_mod - calculates modulus two integers
-* @a: first integer
+ * @a: first integer
  * @b: second integer
  * Return: modulus of two integers
  */
@@ -63,4 +64,3 @@ int op_mod(int a, int b)
 	}
 	return (a % b);
 }
-

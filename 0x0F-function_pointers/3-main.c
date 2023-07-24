@@ -21,4 +21,3 @@ int main(int argc, char *argv[])
 	printf("%i\n", fptr(a, b));
 	return (0);
 }
-
